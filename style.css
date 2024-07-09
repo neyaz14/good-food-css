@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+
+    /* button inline element hoay amra buttton ke alada kore block hisebe center e ante parbo na.......... but div ekta block-level content */
+}
+
+
+#hero{
+
+    height: 615px;
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero-content{
+    width: 542.1px;
+    margin: 0 auto;
+    /* margin e top+buttom e 0 ...... but dui pash theke maje thakbe (auto dara maje bujay) */
+}
+
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16.84px;
+    font-weight: 600;
+    line-height: 27.14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 11px;
+}
+
+
+#hero .hero-content .title{
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40.14px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 17.14px;
+}
+
+#hero .hero-content .description{
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 22.8px ;
+
+}
+
+
+#card-box {
+
+    width: 694.7px;
+    margin: 100px auto ;
+    
+}
+
+#card-box .container .info{
+    
+    margin-bottom: 30px;
+    
+}
+
+
+#card-box .container .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+#card-box .container .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.card-container{
+    /* width: 1000px; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: Work Sans;
+}
+/* card full box ke ekta max width set kore deoa hoise jate er besi na jay */
+.card{
+    max-width: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px 17px;
+}
+.card .img-box {
+    width: 223px; 
+}
+/* first e image-box ke ekta width set kore deoa hoise jate er besi image-box na jay....then image ke oi box er 100% kora hoise jate image er default size onujai image box er theke overflow na hoye jay */
+.card .img-box img{
+    width: 100%;
+}
+
+
+.card .shop{
+    text-align: center;
+
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 8px 18px 8px 18px;
+    
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#card-box .btn-container{
+    margin: 65px;
+}
+
+
+#about-us{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 550px;
+    /* height: 470px ; */
+
+    /* margin-bottom: 0px; */
+   
+    
+}
+
+#about-us .about-img{
+    width: 445px;
+    /* height: 470px; */
+}
+#about-us .about-info-box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+/*     
+width: 436px;
+height: 285px; */
+
+
+}
+
+#about-us .about-info-box .info-head .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#about-us .about-info-box .info-head .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+    opacity: 0.6;
+    /* gap: 40px; */
+    margin-top: 19px;
+
+}
+
+#about-us .about-info-box .follow{
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#about-us .about-info-box .icon{
+
+    font-size: larger;
+    color: brown;
+    padding: 5px;
+    margin: 2px;
+
+}
+
+#social{
+    height: 650px;
+
+    background-image: linear-gradient(0.00deg, rgb(254, 252, 252) -19.5%,rgba(254, 252, 252, 0.529) 100%),  url("assets/social-bg.png");
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+#social .social-info-box .info-head .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+#social .social-info-box .info-head .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    opacity: 0.6;
+
+
+}
+
+
+
+#social .social-info-box .follow{
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#social .social-info-box .icon{
+
+    font-size: larger;
+    color: brown;
+    padding: 5px;
+    margin: 2px;
+
+}
